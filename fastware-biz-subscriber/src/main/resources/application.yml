@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: fastware-biz-subscriber
+
+
+  rabbitmq:
+    host: 192.168.44.130
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: v_host_guest
+
+server:
+  port: 8081
